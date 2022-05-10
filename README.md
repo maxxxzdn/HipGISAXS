@@ -24,6 +24,17 @@ Bug (what bug...?) reporting: Email: `abhinav.sarje@gmail.com`
       4. For users on Andromeda/Bragg servers
     2. Installing Software Dependencies
       1. TIFF Library
+    3. Installing on hemera
+      1. Preload modules:
+      > module load gcc/4.8.5
+      > module load boost/1.67.0
+      > module load python/2
+      > pip -m install scons
+      > module load libtiff
+      > module load cuda/9.2
+      > export CUDA_TOOLKIT_PATH=/trinity/shared/pkg/devel/cuda/9.2/
+      2. Install
+      > scons --extrapath=/trinity/shared/pkg/devel/boost/1.67.0/gcc/4.8.5/ --with-cuda
 
 
 ## Licensing ##
