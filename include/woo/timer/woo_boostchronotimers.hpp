@@ -6,6 +6,7 @@
   *
   *  Author: Abhinav Sarje <asarje@lbl.gov>
   */
+#include <iostream>
 
 #include "wootimers.hpp"
 #include <boost/chrono.hpp>

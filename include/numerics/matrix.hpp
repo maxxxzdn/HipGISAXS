@@ -17,6 +17,8 @@
 #ifndef ROT_MATRIX__HPP
 #define ROT_MATRIX__HPP
 
+#include <iostream>
+
 #include <vector>
 #include <cmath>
 #include <stdexcept>
